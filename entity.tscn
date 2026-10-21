@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ccrhonpavwps4"]
+
+[ext_resource type="PackedScene" uid="uid://cffo1w75btd18" path="res://moviment_component.tscn" id="1_6e8rh"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_l2lw7"]
+
+[node name="Entity" type="CharacterBody2D" unique_id=1103176739]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1357845342]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1930591590]
+shape = SubResource("CapsuleShape2D_l2lw7")
+
+[node name="MovimentComponent" parent="." unique_id=423398621 instance=ExtResource("1_6e8rh")]
+player_or_IA = 1

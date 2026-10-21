@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dnt2l8oy3uqws"]
+
+[ext_resource type="PackedScene" uid="uid://cffo1w75btd18" path="res://moviment_component.tscn" id="1_4flbx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sh265"]
+
+[node name="Player" type="CharacterBody2D" unique_id=937131686]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2087305059]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=508247536]
+shape = SubResource("CapsuleShape2D_sh265")
+
+[node name="MovimentComponent" parent="." unique_id=423398621 instance=ExtResource("1_4flbx")]
