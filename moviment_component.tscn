@@ -4,4 +4,3 @@
 
 [node name="MovimentComponent" type="Node" unique_id=423398621]
 script = ExtResource("1_rbuad")
-player_or_IA = null

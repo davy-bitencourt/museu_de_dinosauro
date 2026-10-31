@@ -1,12 +1,21 @@
 [gd_scene format=3 uid="uid://dnt2l8oy3uqws"]
 
 [ext_resource type="PackedScene" uid="uid://cffo1w75btd18" path="res://moviment_component.tscn" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://bj1gidetor1lf" path="res://sprites/creatures.png" id="1_onrkg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sh265"]
+radius = 2.0
+height = 4.0
 
 [node name="Player" type="CharacterBody2D" unique_id=937131686]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2087305059]
+texture_filter = 1
+scale = Vector2(0.234375, 0.234375)
+texture = ExtResource("1_onrkg")
+hframes = 16
+vframes = 19
+frame = 10
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=508247536]
 shape = SubResource("CapsuleShape2D_sh265")
