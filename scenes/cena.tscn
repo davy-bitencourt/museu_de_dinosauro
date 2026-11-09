@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://7662cwt1811p"]
 
-[ext_resource type="PackedScene" uid="uid://dnt2l8oy3uqws" path="res://player.tscn" id="1_2vsai"]
+[ext_resource type="PackedScene" uid="uid://dnt2l8oy3uqws" path="res://scenes/player.tscn" id="1_2vsai"]
 [ext_resource type="Texture2D" uid="uid://cpqjrp32s7ie7" path="res://sprites/autotile.png" id="1_fwo5d"]
-[ext_resource type="PackedScene" uid="uid://ccrhonpavwps4" path="res://entity.tscn" id="3_mxkdn"]
-[ext_resource type="PackedScene" uid="uid://cqi1fvopewsp4" path="res://colectable.tscn" id="4_c3sxu"]
+[ext_resource type="PackedScene" uid="uid://ccrhonpavwps4" path="res://scenes/entity.tscn" id="3_mxkdn"]
+[ext_resource type="PackedScene" uid="uid://cqi1fvopewsp4" path="res://scenes/colectable.tscn" id="4_c3sxu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mxkdn"]
 texture = ExtResource("1_fwo5d")
