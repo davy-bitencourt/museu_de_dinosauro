@@ -1,20 +1,17 @@
 [gd_scene format=3 uid="uid://ccrhonpavwps4"]
 
 [ext_resource type="Script" uid="uid://cuw2rxrj70c3w" path="res://entity_moviment.gd" id="1_nwmpt"]
-[ext_resource type="Texture2D" uid="uid://bj1gidetor1lf" path="res://sprites/creatures.png" id="1_uqc13"]
+[ext_resource type="Texture2D" uid="uid://cuvk2lp3hct2x" path="res://sprites/dino.png" id="2_uqc13"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uqc13"]
-size = Vector2(16, 18)
+size = Vector2(16, 16)
 
 [node name="Entity" type="CharacterBody2D" unique_id=1103176739]
 script = ExtResource("1_nwmpt")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1357845342]
 texture_filter = 1
-texture = ExtResource("1_uqc13")
-hframes = 16
-vframes = 21
-frame = 26
+texture = ExtResource("2_uqc13")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=796100969]
 shape = SubResource("RectangleShape2D_uqc13")
