@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cqi1fvopewsp4"]
 
-[ext_resource type="Texture2D" uid="uid://bhs228nkx547y" path="res://sprites/agypts_artefact2.png" id="1_ehe8b"]
 [ext_resource type="Script" uid="uid://cfo4himqb47i6" path="res://scripts/colectable.gd" id="1_xsreb"]
+[ext_resource type="Texture2D" uid="uid://day68qp0hc7aw" path="res://sprites/itens.png" id="2_b53ah"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b53ah"]
 
@@ -10,7 +10,9 @@ script = ExtResource("1_xsreb")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=927904238]
 texture_filter = 1
-texture = ExtResource("1_ehe8b")
+texture = ExtResource("2_b53ah")
+hframes = 3
+vframes = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2051404413]
 shape = SubResource("RectangleShape2D_b53ah")
