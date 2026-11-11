@@ -1,18 +1,16 @@
 [gd_scene format=3 uid="uid://cqi1fvopewsp4"]
 
 [ext_resource type="Texture2D" uid="uid://bhs228nkx547y" path="res://sprites/agypts_artefact2.png" id="1_ehe8b"]
+[ext_resource type="Script" uid="uid://cfo4himqb47i6" path="res://scripts/colectable.gd" id="1_xsreb"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_r1wdx"]
-size = Vector2(17, 16)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b53ah"]
 
-[node name="Colectable" type="Node2D" unique_id=1188574546]
+[node name="Area2D" type="Area2D" unique_id=822932260]
+script = ExtResource("1_xsreb")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1172492628]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=927904238]
 texture_filter = 1
 texture = ExtResource("1_ehe8b")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=1215759927]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=194851424]
-position = Vector2(0.5, 0)
-shape = SubResource("RectangleShape2D_r1wdx")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2051404413]
+shape = SubResource("RectangleShape2D_b53ah")

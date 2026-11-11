@@ -371,7 +371,7 @@ tile_set = SubResource("TileSet_2vsai")
 position = Vector2(-241, -379)
 
 [node name="Player" parent="." unique_id=937131686 instance=ExtResource("1_2vsai")]
-position = Vector2(27, -51)
+position = Vector2(42, -66)
 collision_mask = 6
 
 [node name="Entity" parent="." unique_id=1103176739 instance=ExtResource("3_mxkdn")]
