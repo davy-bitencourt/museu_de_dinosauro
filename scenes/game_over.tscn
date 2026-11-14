@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cinw23prfve7m"]
+
+[ext_resource type="Texture2D" uid="uid://cvjetyoua16uy" path="res://sprites/game_over.jpg" id="1_xeevv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wqhvx"]
+font_size = 150
+font_color = Color(0, 0, 0, 1)
+outline_size = 13
+
+[node name="GameOver" type="Control" unique_id=675295194]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=18347135]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -79.0
+offset_top = -37.0
+offset_right = 134.0
+offset_bottom = 83.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_xeevv")
+
+[node name="Label" type="Label" parent="." unique_id=1921204225]
+layout_mode = 0
+offset_left = -3.0
+offset_right = 1155.0
+offset_bottom = 205.0
+text = "GAME OVER"
+label_settings = SubResource("LabelSettings_wqhvx")
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,7 +1,7 @@
 extends Area2D
 enum Type { ARTEFATO, ITEM }
 @export var type : Type;
-@export var n_item = 0;
+@export var n_item : int = 0;
 
 func _ready() -> void:
 	$Sprite2D.frame = n_item;
